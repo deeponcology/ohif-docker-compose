@@ -9,7 +9,7 @@ services:
       - orthanc_db:/var/lib/orthanc/db/
 
   ohif_viewer:
-    image: anilyerramasu/ohif-viewer
+    image: ohif/viewer
     ports:
       - 3001:80
     environment: 
